@@ -251,13 +251,15 @@ export const AppliedJobs = () => {
                                                 <Typography>{data.location}</Typography>
                                             </Box>
                                         </Box>
-                                        <Box display='flex' alignItems='center'>
-                                            <LinkOutlined mr='10px' fontSize="verysmall" />
-                                            <Typography mr='10px'>Share</Typography>
-                                            <BookmarkOutlined mr='10px' fontSize="verysmall" />
-                                            <Typography mr='10px'>Save</Typography>
+                                        <Box display='flex' flexDirection='column'>
+                                            <Box display='flex' alignItems='center'>
+                                                <LinkOutlined mr='10px' fontSize="verysmall" />
+                                                <Typography mr='10px'>Share</Typography>
+                                                <BookmarkOutlined mr='10px' fontSize="verysmall" />
+                                                <Typography mr='10px'>Save</Typography>
+                                            </Box>
+                                            <Typography>status: {data.status}</Typography>
                                         </Box>
-        
                                     </Box>
                                     <Box className={style.horizontal_line} sx={{
                                         mt:{
@@ -302,6 +304,14 @@ export const AppliedJobs = () => {
                                             <Box display='flex' paddingLeft='10px' alignItems='start'>
                                                 <Box className={style.dot} />
                                                 <Typography variant='p' component='div' p='0px'>{data.prefQualifications}</Typography>
+                                            </Box>
+                                            <Box display='flex' paddingLeft='10px' alignItems='start'>
+                                                <Box className={style.dot} />
+                                                <Typography variant='p' component='div' p='0px'>Post Date{data.datePosted}</Typography>
+                                            </Box>
+                                            <Box display='flex' paddingLeft='10px' alignItems='start'>
+                                                <Box className={style.dot} />
+                                                <Typography variant='p' component='div' p='0px'>Close Date{data.dateClose}</Typography>
                                             </Box>
                                         </>
         
