@@ -258,7 +258,7 @@ export const AppliedJobs = () => {
                                                 <BookmarkOutlined mr='10px' fontSize="verysmall" />
                                                 <Typography mr='10px'>Save</Typography>
                                             </Box>
-                                            <Typography>status: {data.status}</Typography>
+                                            <Typography pt='4px'> status: {data.status}</Typography>
                                         </Box>
                                     </Box>
                                     <Box className={style.horizontal_line} sx={{

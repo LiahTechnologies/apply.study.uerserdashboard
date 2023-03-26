@@ -1,5 +1,5 @@
-import { ArrowForwardIosOutlined, } from "@mui/icons-material"
-import { Typography,  Card, Box, Avatar, createTheme,  } from "@mui/material"
+import { ArrowForwardIosOutlined, ArrowOutward, LinkOff, LinkOutlined, } from "@mui/icons-material"
+import { Typography,  Card, Box, Avatar, createTheme, Button, Link as LinkRoute  } from "@mui/material"
 import { makeStyles, styled, ThemeProvider } from "@mui/styles"
 
 import { Link, Route, Routes,} from "react-router-dom"
@@ -225,14 +225,14 @@ const Dashboard = () => {
                             </Box>
                             </Link>
                             
-                            <Link to='/jobs' className={style.sidelinks}  onClick={()=>setActive("jobs")}>
+                            <LinkRoute href="https://www.apply.tekstedia.com" target='_blank'   underline="none"  hre className={style.sidelinks}  onClick={()=>setActive("jobs")}>
                             <Box className={style.sidelinkwrapper}>
                                 <Box className={style.line} flex='0.04' sx={active=="jobs"?{background:'red'}:{background:'transparent'}} />
                                 <Typography flex='2'> Jobs</Typography>
 
-                                <ArrowForwardIosOutlined flex='0.1' fontSize="small" />
+                                <ArrowOutward flex='0.1' fontSize="small" />
                             </Box>
-                            </Link>
+                            </LinkRoute>
                         
                         
 
