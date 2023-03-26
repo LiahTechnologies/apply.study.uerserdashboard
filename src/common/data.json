@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "title":"Chief technical officer",
+        "location":"Buea",
+        "datePosted": "12- 04-2023",
+        "dateClose":"12-05-2023",
+        "open":"true",
+        "company":"Tekstedia",
+        "env":"In-Office",
+        "note":"In this role you are free to work from home or on site",
+        "minQualifications":"Bachelor's degree i a technical field like computer,engineering",
+        "prefQualifications":"Bachelor's degree i a technical field like computer,engineering"
+       
+    },
+    {
+        "id":2,
+        "title":"Chief technical officer",
+        "location":"Buea",
+        "datePosted": "12- 04-2023",
+        "dateClose":"12-05-2023",
+        "open":"true",
+        "company":"Tekstedia",
+        "env":"In-Office",
+        "note":"In this role you are free to work from home or on site",
+        "minQualifications":"Bachelor's degree i a technical field like computer,engineering",
+        "prefQualifications":"Bachelor's degree i a technical field like computer,engineering"
+       
+    } ,
+    {
+        "id":3,
+        "title":"Chief technical officer",
+        "location":"Buea",
+        "datePosted": "12- 04-2023",
+        "dateClose":"12-05-2023",
+        "open":"true",
+        "company":"Tekstedia",
+        "env":"In-Office",
+        "note":"In this role you are free to work from home or on site",
+        "minQualifications":"Bachelor's degree i a technical field like computer,engineering",
+        "prefQualifications":"Bachelor's degree i a technical field like computer,engineering"
+       
+    } ,
+    {
+        "id":4,
+        "title":"Chief technical officer",
+        "location":"Buea",
+        "datePosted": "12- 04-2023",
+        "dateClose":"12-05-2023",
+        "open":"true",
+        "company":"Tekstedia",
+        "env":"In-Office",
+        "note":"In this role you are free to work from home or on site",
+        "minQualifications":"Bachelor's degree i a technical field like computer,engineering",
+        "prefQualifications":"Bachelor's degree i a technical field like computer,engineering"
+       
+    },
+    {
+        "id":5,
+        "title":"Chief technical officer",
+        "location":"Buea",
+        "datePosted": "12- 04-2023",
+        "dateClose":"12-05-2023",
+        "open":"true",
+        "company":"Tekstedia",
+        "env":"In-Office",
+        "note":"In this role you are free to work from home or on site",
+        "minQualifications":"Bachelor's degree i a technical field like computer,engineering",
+        "prefQualifications":"Bachelor's degree i a technical field like computer,engineering"
+       
+    } ,
+    {
+        "id":6,
+        "title":"Chief technical officer",
+        "location":"Buea",
+        "datePosted": "12- 04-2023",
+        "dateClose":"12-05-2023",
+        "open":"true",
+        "company":"Tekstedia",
+        "env":"In-Office",
+        "note":"In this role you are free to work from home or on site",
+        "minQualifications":"Bachelor's degree i a technical field like computer,engineering",
+        "prefQualifications":"Bachelor's degree i a technical field like computer,engineering"
+       
+    } 
+]
